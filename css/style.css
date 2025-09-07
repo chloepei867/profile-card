@@ -1,0 +1,142 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+body {
+  margin: 0;
+  font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  min-height: 100vh;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.credits {
+  color: #777;
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.credits a {
+  color: #000;
+  font-weight: bold;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #f9fafb, #d2d6db);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 340px;
+  height: 428px;
+  margin: 200px auto;
+  background-color: #fff;
+  padding: 24px 16px;
+  border-radius: 8px;
+}
+
+.card-container .card-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  height: 236px;
+}
+
+.card-details .avatar {
+  width: 64px;
+  height: 64px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-info .name {
+  line-height: 28px;
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #171717;
+}
+
+.user-info .title {
+  line-height: 20px;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: #525252;
+}
+
+.card-details .bio {
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #525252;
+}
+
+.card-actions {
+  width: 100%;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-actions .contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 44px;
+  color: #fff;
+  background-color: #4338ca;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0 rgb(0 0 0 / 0.06), 0px 1px 3px 0 rgb(0 0 0 / 0.1);
+}
+
+.card-actions .social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  /* background-color: purple; */
+  gap: 16px;
+}
+
+.social-media li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  color: #4338ca;
+  /* font-size: 20px; */
+}
+
+.social-media li i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+}
